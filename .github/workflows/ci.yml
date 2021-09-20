@@ -9,8 +9,8 @@ on:
 
 jobs:
   build:
-    name: build
-    runs-on: ubuntu-20.04
+    name: Build
+    runs-on: windows-2019
     outputs:
       version: ${{ steps.semver.outputs.version }}
       should-release: ${{ steps.semver.outputs.should-release }}
