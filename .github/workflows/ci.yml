@@ -44,7 +44,7 @@ jobs:
         with:
           name: build-artifacts
       - name: Zip Build Assets
-        run: zip -r asssets ./*
+        run: zip -r assets ./*
       - name: Release
         uses: EasyDesk/action-semver-release@v1
         with:
