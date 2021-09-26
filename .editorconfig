@@ -312,6 +312,7 @@ dotnet_diagnostic.SA1208.severity=none
 dotnet_diagnostic.SA1402.severity=none
 dotnet_diagnostic.SA1412.severity=none
 dotnet_diagnostic.SA1413.severity=none
+dotnet_diagnostic.SA1414.severity=none
 dotnet_diagnostic.SA1600.severity=suggestion
 dotnet_diagnostic.SA1601.severity=suggestion
 dotnet_diagnostic.SA1602.severity=suggestion
@@ -325,3 +326,5 @@ dotnet_diagnostic.IDE0058.severity = none
 # Analyzer rules severity
 dotnet_diagnostic.CA2016.severity = none
 dotnet_diagnostic.CA1822.severity = none
+dotnet_diagnostic.SA1407.severity=silent
+dotnet_diagnostic.SA1408.severity=silent

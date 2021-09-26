@@ -11,5 +11,9 @@
     <PackageReference Include="EasyDesk.CleanArchitecture.Infrastructure" Version="0.7.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
   </ItemGroup>
+  
+  <PropertyGroup>
+    <RootFolder>..</RootFolder>
+  </PropertyGroup>
 
 </Project>
