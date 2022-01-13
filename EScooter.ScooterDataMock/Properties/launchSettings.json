@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "EScooter.ScooterDataMock (Production)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ESCOOTER_TOPICNAME": "production/service-events"
+      }
+    },
+    "EScooter.ScooterDataMock (Development)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ESCOOTER_TOPICNAME": "development/service-events"
+      }
+    }
+  }
+}

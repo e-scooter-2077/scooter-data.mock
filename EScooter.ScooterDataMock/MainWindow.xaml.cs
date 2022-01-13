@@ -43,7 +43,7 @@ namespace EScooter.ScooterDataMock
                 .Build();
 
             var connectionString = config.GetValue<string>("AzureServiceBusSettings:ConnectionString");
-            var settings = AzureServiceBusSenderDescriptor.Topic("development/service-events");
+            var settings = AzureServiceBusSenderDescriptor.Topic("production/service-events");
             var client = new ServiceBusClient(connectionString);
             var eventBusPublisher = new AzureServiceBusPublisher(client, settings);
             var serializerSettings = new JsonSerializerSettings
